@@ -12,10 +12,6 @@ storiesOf('SideNav', module)
   withInfo(`
     description or documentation about my component, supports markdown
   
-    ~~~js
-    <Button>Click Here</Button>
-    ~~~
-  
   `)(() =>
     <div className="wrapper-sideNav">
         <SideNav />

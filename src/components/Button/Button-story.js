@@ -5,12 +5,6 @@ import { withInfo } from '@storybook/addon-info';
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
 import Button from './Button.jsx';
 
-const buttonEvents = {
-  onClick: action('onClick'),
-  onFocus: action('onFocus')
-};
-
-
 storiesOf('Buttons', module)
 .add('Buttons (directions)',
   withInfo(`
