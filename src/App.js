@@ -1,6 +1,5 @@
 import React       from 'react';
 import Button      from './components/Button/Button.jsx';
-import ButtonGroup from './components/ButtonGroup/ButtonGroup.jsx';
 import Input       from './components/Input/Input.jsx';
 
 class App extends React.Component {
@@ -37,7 +36,7 @@ class App extends React.Component {
 
 					<div>
 						<h4>Button group:</h4>
-						<ButtonGroup>
+
 							<Button
 								disabled={false}
 								type='button'
@@ -61,7 +60,7 @@ class App extends React.Component {
 								event={() => {alert('Right button clicked!')}}>
 								Right
 							</Button>
-						</ButtonGroup>
+
 					</div>
 				</div>
 			</div>

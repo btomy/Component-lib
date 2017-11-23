@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withInfo } from '@storybook/addon-info';
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
-import Button from './Button.jsx';
+import Button from './Button';
 
 storiesOf('Buttons', module)
 .add('Buttons (directions)',

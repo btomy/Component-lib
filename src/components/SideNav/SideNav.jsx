@@ -5,13 +5,13 @@ class SideNav extends React.Component {
         return(
             <nav className="main-content__sidebar side-nav side-nav--levels-3 side-nav--no-child" data-track-zone="side-nav">
                     <h2 className="side-nav__heading"><a href="#!" aria-controls="section-nav-list" aria-expanded="false"><span className="screenreader">Show</span> In this section</a></h2>
-                    <h2><a href="/family/">Family</a></h2>	     
+                    <h2><a href="#">Family</a></h2>	     
             
                 <ul className="side-nav__ul--level1">
             
                 <li className="o-media">
             
-                <a href="/family/living-together-marriage-and-civil-partnership/">
+                <a href="#">
                     <div className="o-media__media">
                     <i className="icon-guillemet-right side-nav__current__icon" aria-hidden="true"></i>
                     </div>
@@ -37,7 +37,7 @@ class SideNav extends React.Component {
             
                 <li className="o-media">
             
-                <a href="/family/living-together-marriage-and-civil-partnership/living-together-and-marriage-legal-differences/">
+                <a href="#">
                     <div className="o-media__media">
                     <i className="icon-guillemet-right side-nav__current__icon" aria-hidden="true"></i>
                     </div>
@@ -50,7 +50,7 @@ class SideNav extends React.Component {
             
                 <li className="o-media">
             
-                <a href="/family/living-together-marriage-and-civil-partnership/registering-a-civil-partnership/">
+                <a href="#">
                     <div className="o-media__media">
                     <i className="icon-guillemet-right side-nav__current__icon" aria-hidden="true"></i>
                     </div>
@@ -63,7 +63,7 @@ class SideNav extends React.Component {
             
                 <li className="o-media">
             
-                <a href="/family/living-together-marriage-and-civil-partnership/living-together-and-civil-partnership-legal-differences/">
+                <a href="#">
                     <div className="o-media__media">
                     <i className="icon-guillemet-right side-nav__current__icon" aria-hidden="true"></i>
                     </div>

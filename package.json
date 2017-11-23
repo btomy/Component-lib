@@ -6,7 +6,10 @@
     "@storybook/addon-actions": "^3.2.15",
     "@storybook/addon-info": "^3.2.15",
     "@storybook/addon-knobs": "^3.2.15",
-    "@storybook/react": "^3.2.15"
+    "@storybook/react": "^3.2.15",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "storybook-addon-specifications": "^2.1.1"
   },
   "dependencies": {
     "react": "^16.1.1",
